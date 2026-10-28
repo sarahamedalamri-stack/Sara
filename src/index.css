@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-soft-purple: #B8A5F8;
+    --color-sky-blue: #8ED8F8;
+    --color-soft-pink: #FFB8D2;
+    --color-golden-yellow: #FFD966;
+    --color-mint-green: #A8E6CF;
+    --color-cream-bg: #FFF9F0;
+    --color-text-main: #26345C;
+  }
+
+  body {
+    font-family: 'Readex Pro', 'Tajawal', system-ui, -apple-system, sans-serif;
+    color: #26345C;
+    background-color: #FFF9F0;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Tajawal', 'Readex Pro', system-ui, sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* Custom smooth scroll and child-friendly styling */
+* {
+  -webkit-tap-highlight-color: transparent;
+}

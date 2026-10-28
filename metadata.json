@@ -1,0 +1,6 @@
+{
+  "name": "أبطال القراءة",
+  "description": "موقع تعليمي تفاعلي لتعليم القراءة والفهم القرائي في سلطنة عُمان. تصميم وإعداد: أ. ساره العامري",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
